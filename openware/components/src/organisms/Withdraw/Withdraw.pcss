@@ -1,0 +1,47 @@
+.cr-withdraw {
+  padding: 10px;
+
+  &__divider {
+    background-color: var(--withdraw-divider-border-color);
+    width: 1px;
+    margin-left: calc(var(--gap) * 3.45);
+    min-height: calc(var(--gap) * 3.2);
+
+    &-one {
+      height: calc(var(--gap) * 6.4);
+    }
+
+    &-two {
+      position: absolute;
+      height: calc(var(--gap) * 13);
+    }
+  }
+
+  &__summary-field {
+    margin-left: calc(var(--gap) * 2.9);
+    margin-top: calc(var(--gap) * 4.5);
+
+    .cr-summary-field-message {
+      color: var(--withdraw-summary-field-message-color);
+    }
+
+    .cr-summary-field-amount {
+      color: var(--withdraw-summary-field-amount-color);
+    }
+  }
+
+  &__deep {
+    text-align: right;
+  }
+
+  &__button {
+    background: var(--withdraw-button-bg);
+    color: #fff;
+    font-size: calc(var(--gap) * 3);
+    font-style: normal;
+    font-weight: bold;
+    height: calc(var(--gap) * 6.5);
+    line-height: normal;
+    width: calc(var(--gap) * 30.8);
+  }
+}

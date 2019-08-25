@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Markets should render 1`] = `
+<div
+  className="cr-markets"
+>
+  <Table
+    data={
+      Array [
+        Array [
+          "ETH / BTC",
+          "0.223100",
+        ],
+        Array [
+          "ETH / LTC",
+          "0.223100",
+        ],
+        Array [
+          "LTC / BTC",
+          "0.223100",
+        ],
+      ]
+    }
+    filters={
+      Array [
+        Object {
+          "filter": [Function],
+          "name": "All",
+        },
+        Object {
+          "filter": [Function],
+          "name": "ETH",
+        },
+        Object {
+          "filter": [Function],
+          "name": "BTC",
+        },
+        Object {
+          "filter": [Function],
+          "name": "LTC",
+        },
+      ]
+    }
+    header={
+      Array [
+        "Pair",
+        "Price",
+      ]
+    }
+    onSelect={[Function]}
+    titleComponent="Markets"
+  />
+  <FilterInput
+    data={
+      Array [
+        Array [
+          "ETH / BTC",
+          "0.223100",
+        ],
+        Array [
+          "ETH / LTC",
+          "0.223100",
+        ],
+        Array [
+          "LTC / BTC",
+          "0.223100",
+        ],
+      ]
+    }
+    filter={[Function]}
+    onFilter={[Function]}
+  />
+</div>
+`;
+
+exports[`Markets should render empty data 1`] = `
+<div
+  className="cr-markets"
+>
+  <Table
+    data={
+      Array [
+        Array [
+          "",
+          "",
+        ],
+      ]
+    }
+    filters={
+      Array [
+        Object {
+          "filter": [Function],
+          "name": "All",
+        },
+      ]
+    }
+    header={
+      Array [
+        "Pair",
+        "Price",
+      ]
+    }
+    onSelect={[Function]}
+    titleComponent="Markets"
+  />
+  <FilterInput
+    data={Array []}
+    filter={[Function]}
+    onFilter={[Function]}
+  />
+</div>
+`;

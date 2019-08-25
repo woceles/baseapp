@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WalletTradeItem should render 1`] = `
+<div
+  className="cr-wallet-trades-item"
+>
+  <div
+    className="cr-wallet-trades-item__body"
+  >
+    <div
+      className="cr-wallet-trades-item__body-crypto"
+    >
+      <CryptoIcon
+        className="cr-wallet-trades-item__body-crypto-icon"
+        code="BTC-alt"
+      />
+    </div>
+    <div
+      className="cr-wallet-trades-item__body-data"
+    >
+      <div
+        className="cr-wallet-trades-item__body-data-currency"
+      >
+        BTC
+      </div>
+      <div
+        className="cr-wallet-trades-item__body-data-balance"
+      >
+        0
+      </div>
+    </div>
+  </div>
+  <div
+    className="cr-wallet-trades-item__arrow"
+  >
+    <img
+      src="test-file-stub"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sign in form should render 1`] = `
+<form>
+  <div
+    className="cr-sign-up-form"
+  >
+    <h1
+      className="cr-sign-up-form__title"
+      style={
+        Object {
+          "marginTop": 119,
+        }
+      }
+    >
+      Sign-up
+    </h1>
+    <div
+      className="cr-sign-up-form__group"
+    >
+      <label
+        className="cr-sign-up-form__label"
+      >
+        Email
+      </label>
+      <Input
+        className="cr-sign-up-form__input"
+        onChangeValue={[Function]}
+        type="email"
+        value=""
+      />
+    </div>
+    <div
+      className="cr-sign-up-form__group"
+    >
+      <label
+        className="cr-sign-up-form__label"
+      >
+        Password
+      </label>
+      <Input
+        className="cr-sign-up-form__input"
+        onChangeValue={[Function]}
+        type="password"
+        value=""
+      />
+    </div>
+    <div
+      className="cr-sign-up-form__group"
+    >
+      <label
+        className="cr-sign-up-form__label"
+      >
+        Confirm Password
+      </label>
+      <Input
+        className="cr-sign-up-form__input"
+        onChangeValue={[Function]}
+        type="password"
+        value=""
+      />
+    </div>
+    <div>
+      <Checkbox
+        checked={false}
+        className="cr-sign-up-form__checkbox"
+        label="By signing up, I confirm that I have read and I agree to the TERMS AND CONDITIONS & PRIVACY POLICY."
+        onChange={[Function]}
+      />
+    </div>
+    <div
+      className="cr-sign-in-form__button-wrapper cr-sign-in-form__button-wrapper--empty"
+    >
+      <div
+        className="cr-sign-in-form__error-message"
+      />
+      <div
+        className="cr-sign-in-form__loader"
+      />
+      <Button
+        className="cr-sign-up-form__button"
+        disabled={true}
+        label="Sign up"
+        onClick={[Function]}
+        type="submit"
+      />
+    </div>
+    <div
+      className="cr-sign-up-form__footer"
+    >
+      <p
+        className="cr-sign-up-form__footer-create"
+      >
+        Already have an account?
+      </p>
+      <span
+        className="cr-sign-up-form__footer-signin"
+      >
+        Sign in
+      </span>
+    </div>
+  </div>
+</form>
+`;

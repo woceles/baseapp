@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputBlock should render 1`] = `
+<div
+  className="cr-order-input"
+>
+  <div
+    className="cr-order-input__crypto-icon"
+  >
+    <CryptoIcon
+      code="ETH-alt"
+    >
+      ETH
+    </CryptoIcon>
+  </div>
+  <div
+    className="cr-order-input__input"
+  >
+    <Input
+      className="cr-order-input__input"
+      onChangeValue={[Function]}
+      placeholder="0"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;

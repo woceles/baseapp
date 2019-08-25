@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MarketInfo should render 1`] = `
+<nav
+  className="cr-market-info"
+>
+  <div
+    className="cr-market-dropdown"
+  >
+    <Dropdown
+      className="cr-market-info__pairs-dropdown"
+      list={
+        Array [
+          "BTC/USDT",
+          "EUR/USDT",
+        ]
+      }
+      onSelect={[Function]}
+    />
+  </div>
+  <div
+    className="cr-market-info__values"
+  >
+    <HeaderItem
+      amount={9168.2}
+      className="cr-market-info__values-item"
+      currency="usdt"
+      label="Last trade price"
+    />
+    <HeaderItem
+      amount={10.05}
+      className="cr-market-info__values-item"
+      label="24 hour price"
+      sign="+"
+    />
+    <HeaderItem
+      amount={2.345}
+      className="cr-market-info__values-item"
+      currency="btc"
+      label="24 hour value"
+    />
+  </div>
+</nav>
+`;

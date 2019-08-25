@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Withdraw should render 1`] = `
+<div
+  className="cr-withdraw"
+>
+  <div
+    className="cr-withdraw-column"
+  >
+    <form>
+      <fieldset
+        className="cr-withdraw__input"
+      >
+        <legend>
+          BTC
+           "Withdrawal Address"
+        </legend>
+        <Input
+          className="cr-input-block__input"
+          onChangeValue={[Function]}
+          placeholder="Address"
+          type="text"
+          value=""
+        />
+      </fieldset>
+    </form>
+    <div
+      className="cr-withdraw__divider cr-withdraw__divider-one"
+    />
+    <form>
+      <fieldset
+        className="cr-withdraw__input"
+      >
+        <legend>
+          Withdrawal Amount
+        </legend>
+        <Input
+          className="cr-input-block__input"
+          onChangeValue={[Function]}
+          placeholder="0"
+          type="number"
+          value={0}
+        />
+      </fieldset>
+    </form>
+    <div
+      className="cr-withdraw__divider cr-withdraw__divider-two"
+    />
+  </div>
+  <div
+    className="cr-withdraw-column"
+  >
+    <div>
+      <SummaryField
+        className="cr-withdraw__summary-field "
+        content="0.1 BTC"
+        message="Fee"
+      />
+      <SummaryField
+        className="cr-withdraw__summary-field"
+        content="0 BTC"
+        message="Total Withdraw Amount"
+      />
+    </div>
+    <div
+      className="cr-withdraw__deep"
+    >
+      <Button
+        className="cr-withdraw__button"
+        label="WITHDRAW"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,131 @@
+.cr-sign-up-form {
+  padding: calc(var(--gap) * 2) calc(var(--gap) * 8);
+  background: var(--sign-in-background-color);
+  max-width: 500px;
+
+  & > * {
+    background: var(--transparent);
+  }
+
+  &__group {
+    margin-bottom: 20px;
+  }
+
+  &__error {
+    background: var(--transparent);
+    margin-top: 5px;
+    color: var(--color-red);
+  }
+
+  &__label {
+    background: transparent;
+    color: var(--sign-in-label-color);
+  }
+
+  &__image {
+    display: block;
+    width: 50%;
+    height: 100px;
+    margin: 0 auto 20px auto;
+  }
+
+  &__title {
+    color: var(--sign-in-label-color);
+    margin: 119px 0 60px 0;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  &__error-message {
+    color: var(--color-red);
+    font-size: calc(var(--gap) * 2.5);
+    flex: 1;
+    display: flex;
+    background: var(--transparent);
+    justify-content: center;
+    align-items: center;
+    min-height: calc(var(--gap) * 6);
+  }
+
+  &__button {
+    background: var(--button-primary);
+    height: 50px;
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  &__loader {
+    background: var(--transparent);
+    min-height: calc(var(--gap) * 6);
+  }
+
+  &__button-wrapper {
+    min-height: calc(var(--gap) * 28);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__input {
+    width: 100%;
+
+    input {
+      color: var(--sign-in-input-color);
+      width: 100%;
+      height: 30px;
+      font-size: 12px;
+      text-align: left;
+      border-bottom: 1px solid var(--sign-in-input-border-color);
+    }
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & > * {
+      background: var(--transparent);
+    }
+
+    &-create {
+      color: var(--sign-in-label-color);
+    }
+
+    &-signin {
+      cursor: pointer;
+      padding-left: 10px;
+    }
+  }
+
+  &__checkbox {
+    word-wrap: break-word;
+    background: var(--transparent);
+
+    .cr-checkbox__checkitem {
+      border: 1px solid var(--sign-up-checkbox-mark-color);
+      background: var(--transparent);
+
+      &::after {
+        border-color: var(--sign-up-checkbox-mark-color);
+      }
+    }
+
+    input:checked ~ .cr-checkbox__checkitem {
+      background-color: var(--transparent);
+    }
+
+    .cr-checkbox__label {
+      white-space: normal;
+      padding-top: 0;
+      font-size: 12px;
+      background: var(--transparent);
+      color: var(--sign-up-checkbox-color);
+    }
+  }
+
+  &__recaptcha {
+    display: flex;
+    justify-content: center;
+  }
+}

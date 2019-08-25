@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sign in form should render 1`] = `
+<form>
+  <div
+    className="cr-sign-in-form"
+  >
+    <h1
+      className="cr-sign-in-form__title"
+      style={
+        Object {
+          "marginTop": 119,
+        }
+      }
+    >
+      Sign-in
+    </h1>
+    <div
+      className="cr-sign-in-form__group"
+    >
+      <label
+        className="cr-sign-in-form__label"
+      >
+        Email
+      </label>
+      <Input
+        className="cr-sign-in-form__input"
+        onChangeValue={[Function]}
+        type="email"
+        value=""
+      />
+    </div>
+    <div
+      className="cr-sign-in-form__group"
+    >
+      <label
+        className="cr-sign-in-form__label"
+      >
+        Password
+      </label>
+      <Input
+        className="cr-sign-in-form__input"
+        onChangeValue={[Function]}
+        type="password"
+        value=""
+      />
+      <div
+        className="cr-sign-in-form__forgot"
+        onClick={[Function]}
+      >
+        Forgot?
+      </div>
+    </div>
+    <div
+      className="cr-sign-in-form__button-wrapper cr-sign-in-form__button-wrapper--empty"
+    >
+      <div
+        className="cr-sign-in-form__error-message"
+      />
+      <div
+        className="cr-sign-in-form__loader"
+      />
+      <Button
+        className="cr-sign-in-form__button"
+        label="Sign in"
+        onClick={[Function]}
+        type="submit"
+      />
+    </div>
+    <div
+      className="cr-sign-in-form__footer"
+    >
+      <p
+        className="cr-sign-in-form__footer-create"
+      >
+        Create an account?
+      </p>
+      <a
+        className="cr-sign-in-form__footer-signup"
+        onClick={[MockFunction]}
+      >
+        Sign up
+      </a>
+    </div>
+  </div>
+</form>
+`;

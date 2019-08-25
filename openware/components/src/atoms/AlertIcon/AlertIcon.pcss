@@ -1,0 +1,60 @@
+.cr-alert-icon {
+  height: var(--alert-icon-size);
+  position: relative;
+  width: var(--alert-icon-size);
+
+  &--success {
+    &__left,
+    &__center,
+    &__right {
+      background: var(--base-2);
+      border-radius: 4px;
+      position: absolute;
+      width: 3px;
+    }
+
+    &__left,
+    &__right {
+      height: 15px;
+      top: 9px;
+    }
+
+    &__left {
+      left: 4px;
+      transform: rotate(-45deg);
+    }
+
+    &__center {
+      border-radius: 0;
+      left: 9px;
+      height: 20px;
+      top: 2px;
+    }
+
+    &__right {
+      right: 5px;
+      transform: rotate(45deg);
+    }
+  }
+
+  &--error {
+    &__left,
+    &__right {
+      background: var(--history-action-sell);
+      border-radius: 4px;
+      height: 27px;
+      left: 10px;
+      position: absolute;
+      top: -3px;
+      width: 3px;
+    }
+
+    &__left {
+      transform: rotate(45deg);
+    }
+
+    &__right {
+      transform: rotate(-45deg);
+    }
+  }
+}

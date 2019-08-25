@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderItem should render 1`] = `
+<div
+  className="cr-header-item"
+>
+  <div
+    className="cr-header-item__amount-default"
+  >
+    12.1
+     
+    BTC
+  </div>
+  <div
+    className="cr-header-item__label"
+  >
+    24 hour price
+  </div>
+</div>
+`;

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DepositCrypto #render renders correctly 1`] = `
+<div
+  className="cr-deposit-crypto"
+>
+  <div>
+    <p
+      className="cr-deposit-info"
+    >
+      This is test
+    </p>
+    <form
+      className="cr-deposit-crypto__copyable"
+    >
+      <fieldset
+        className="cr-copyable-text-field"
+      >
+        <legend
+          className="cr-deposit-crypto__copyable-title"
+        >
+          Deposit by Wallet Address
+        </legend>
+        <div
+          className="cr-copyable-text-field cr-deposit-crypto__copyable-area"
+        >
+          <div
+            className="cr-copyable-text-field__input"
+          >
+            <input
+              id="copy_deposit_1"
+              readOnly={true}
+              type="text"
+              value="adknfjkwen"
+            />
+          </div>
+          <div
+            className="cr-copyable-text-field__button"
+            onClick={[Function]}
+          >
+            Copy
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+  <div>
+    <div
+      className="qr-code"
+    >
+      <img
+        alt="adknfjkwen"
+        className="qr-code__img"
+        src="https://api.qrserver.com/v1/create-qr-code/?data=adknfjkwen&size=180x180"
+      />
+    </div>
+  </div>
+</div>
+`;

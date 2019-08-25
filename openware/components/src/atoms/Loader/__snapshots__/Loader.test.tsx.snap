@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader should render 1`] = `
+<div
+  className="cr-loader"
+>
+  <img
+    alt=""
+    height={30}
+    src="test-file-stub"
+    width={30}
+  />
+</div>
+`;

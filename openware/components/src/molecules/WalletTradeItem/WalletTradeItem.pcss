@@ -1,0 +1,63 @@
+.cr-wallet-trades-item {
+  background-color: var(--wallet-trades-item-bg-color);
+  color: var(--wallet-trades-item-color);
+  display: flex;
+  justify-content: space-between;
+
+  &__body {
+    display: inline-block;
+    background-color: inherit;
+    color: inherit;
+
+    &-crypto {
+      display: inline;
+      background-color: inherit;
+      justify-content: space-between;
+      vertical-align: middle;
+      color: inherit;
+
+      &-icon {
+        background-color: inherit;
+        color: inherit;
+        padding-left: calc(var(--gap) * 2);
+
+        [class^=cr-crypto-font] {
+          color: inherit;
+          font-size: calc(var(--gap) * 6);
+          vertical-align: middle;
+          background: transparent;
+        }
+      }
+    }
+
+    &-data {
+      display: inline-block;
+      background-color: inherit;
+      color: inherit;
+      vertical-align: middle;
+
+      &-currency {
+        background-color: inherit;
+        color: inherit;
+        font-size: calc(var(--gap) * 2.33);
+        padding-bottom: 5px;
+      }
+
+      &-balance {
+        background-color: inherit;
+        color: inherit;
+        font-size: calc(var(--gap) * 2.66);
+      }
+    }
+  }
+
+  &__arrow {
+    display: flex;
+    float: right;
+    margin-right: calc(var(--gap) * 4);
+    line-height: calc(var(--gap) * 4.4);
+    padding-top: calc(var(--gap) * 0.5);
+    vertical-align: middle;
+    background: transparent;
+  }
+}

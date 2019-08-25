@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QRCode #render renders correctly 1`] = `
+<div
+  className="qr-code"
+>
+  <img
+    alt="sevaerverv343"
+    className="qr-code__img"
+    src="https://api.qrserver.com/v1/create-qr-code/?data=sevaerverv343&size=50x50"
+  />
+</div>
+`;

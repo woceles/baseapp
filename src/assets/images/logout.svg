@@ -1,0 +1,8 @@
+module.exports = __webpack_public_path__ + "static/media/logout.a4633427.svg";
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/containers/NavBar/logout.svg
+// module id = ./src/containers/NavBar/logout.svg
+// module chunks = 0

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown #render should render dropdown 1`] = `
+<Dropdown
+  list={
+    Array [
+      "Limit",
+      "Market",
+    ]
+  }
+>
+  <div
+    className="cr-dropdown"
+  >
+    <div
+      className="cr-dropdown__input"
+      onClick={[Function]}
+    >
+      <span
+        className="cr-dropdown__input-label"
+      >
+        Limit
+      </span>
+      <span
+        className="cr-dropdown__input-icon"
+      >
+        <img
+          src="test-file-stub"
+        />
+      </span>
+    </div>
+  </div>
+</Dropdown>
+`;

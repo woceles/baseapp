@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlertIcon should render error icon 1`] = `<ErrorIcon />`;
+
+exports[`AlertIcon should render success icon 1`] = `<SuccessIcon />`;

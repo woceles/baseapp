@@ -1,0 +1,113 @@
+.cr-market-info {
+  width: auto;
+  background-color: inherit;
+
+  .cr-market-dropdown {
+    display: inline-block;
+    width: calc(var(--gap) * 40);
+  }
+
+  &__pairs-dropdown {
+    display: inline-block;
+    font-size: calc(var(--gap) * 3.6);
+
+    .cr-dropdown__input {
+      background-color: var(--market-info-dropdown-bg-color);
+      border: 0;
+      padding: calc(var(--gap) * 4.7) var(--gap);
+      width: inherit;
+
+      &-label {
+        background-color: var(--market-info-dropdown-bg-color);
+        font-size: calc(var(--gap) * 3.6);
+        font-weight: bolder;
+        line-height: calc(var(--gap) * 2.5);
+        color: var(--market-info-dropdown-color);
+      }
+
+      &-icon {
+        margin-left: calc(var(--gap) * 3);
+        background-color: var(--market-info-dropdown-bg-color);
+
+        img {
+          height: calc(var(--gap) * 2);
+        }
+      }
+
+      &--open {
+        background-color: var(--market-info-dropdown-bg-color);
+        color: var(--market-info-dropdown-color);
+        padding: calc(var(--gap) * 4.7) var(--gap);
+        width: inherit;
+        border: 0;
+
+        &-icon {
+          padding-left: calc(var(--gap) * 5);
+        }
+      }
+    }
+
+    .cr-dropdown__list {
+      border: 0;
+
+      &-item {
+        background-color: var(--market-info-dropdown-bg-color);
+        border: 0;
+        cursor: pointer;
+        padding: calc(var(--gap) * 4.7) var(--gap);
+
+        &-label {
+          background-color: var(--market-info-dropdown-bg-color);
+          color: var(--market-info-dropdown-color);
+          font-size: calc(var(--gap) * 3.6);
+          font-weight: bolder;
+          line-height: calc(var(--gap) * 2.5);
+        }
+
+        &:hover {
+          background-color: var(--background-dropdown);
+          color: var(--base);
+
+          .cr-dropdown__list-item-label {
+            background-color: var(--background-dropdown) !important;
+          }
+        }
+      }
+    }
+  }
+
+  &__values {
+    display: inline-block;
+
+    &-item {
+      display: inline-block;
+      padding-left: calc(var(--gap) * 2.7);
+      padding-right: calc(var(--gap) * 2.7);
+      vertical-align: middle;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .cr-market-dropdown {
+    display: block;
+    width: 100% !important;
+
+    .cr-dropdown {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .cr-market-info__values {
+    display: block;
+    width: 100%;
+
+    .cr-market-info__values-item {
+      display: block;
+      padding: calc(var(--gap) * 2) 0;
+      width: 100%;
+    }
+  }
+}

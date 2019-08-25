@@ -1,0 +1,37 @@
+.cr-alert {
+  align-items: center;
+  background: var(--background);
+  border: 1px solid var(--avatar-border-alt-color);
+  box-sizing: border-box;
+  display: flex;
+  height: calc(var(--gap) * 9.3);
+  justify-content: space-between;
+  padding: 0 calc(var(--gap) * 3.16) 0 calc(var(--gap) * 3.16);
+  position: relative;
+  text-align: right;
+  width: calc(var(--gap) * 35.66);
+
+  &__title,
+  &__description {
+    background: transparent;
+    line-height: 1em;
+    margin: 0;
+  }
+
+  &__title {
+    line-height: calc(var(--gap) * 2.33);
+    margin-bottom: 5px;
+  }
+
+  &--success {
+    .cr-alert__title {
+      color: var(--history-action-buy);
+    }
+  }
+
+  &--error {
+    .cr-alert__title {
+      color: var(--history-action-sell);
+    }
+  }
+}

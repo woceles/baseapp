@@ -1,0 +1,32 @@
+.cr-order-input {
+  display: flex;
+  justify-content: space-between;
+
+  &__crypto-icon {
+    background-color: var(--order-input-input-bg);
+    border: 1px solid var(--order-input-border-color);
+    border-right: none;
+    display: inline-block;
+    padding: var(--gap);
+    width: 50%;
+
+    span {
+      background-color: inherit;
+    }
+  }
+
+  &__input {
+    background-color: var(--order-input-input-bg);
+    border: 1px solid var(--order-input-border-color);
+    color: var(--order-input-input-color);
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+
+    .cr-input {
+      border: none;
+      padding: var(--gap);
+      width: auto;
+    }
+  }
+}

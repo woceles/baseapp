@@ -1,0 +1,30 @@
+.cr-copyable-text-field {
+  border: 1px solid var(--base-3);
+  background: var(--background-dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--gap);
+
+  &__button {
+    cursor: pointer;
+    align-self: right;
+    color: var(--base-3);
+    background: var(--background-dark);
+  }
+
+  &__input {
+    flex: 1;
+    align-self: left;
+    color: var(--base-3);
+    background: var(--background-dark);
+  }
+
+  input {
+    width: 100%;
+    border-radius: 0;
+    border-style: none;
+    color: var(--base-3);
+    background: var(--background-dark);
+  }
+}
